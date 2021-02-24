@@ -1,0 +1,40 @@
+
+.input-wrapper{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input{
+  padding: 9px 6px;
+  font-size: 13px;
+  border-radius: 2px;
+  border-width: 0px;
+  font-weight: 600;
+  width: 250px;
+}
+
+input:focus{
+  outline: none;
+}
+
+input::placeholder{
+  color: #999
+}
+
+.error{
+  background-color: #F6AAAA;
+  padding: 8px 25px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  max-width: 170px;
+}
+
+.sub-text{
+  color: #3c3c3c;
+  font-size: 12px;
+  margin-top: 10px;
+}
